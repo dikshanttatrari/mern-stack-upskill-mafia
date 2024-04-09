@@ -1,24 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body{
-    background-color: orange;
+    max-height: 100px;
 }
 
-.head{
-    color: darkblue;
+.container{
+    margin: 10% 25%;
+    width: 40vw;
 }
 
-#bglime{
-    background-color: blueviolet;
+.image-container{
+    height: 40vh;
 }
 
-.red{
-    color: red;
+img{
+    width: 100%;
 }
 
-#para{
-    color: green;
+.button-container{
+    height: 7vh;
 }
 
-.paragraph{
-    font-size: 22px;
-    color: black;
+button{
+    width: 100%;
+    font-size: 3vh;
+    font-family: 'Poppins';
+    background: linear-gradient(45deg, yellow, lightgreen, rgba(251, 78, 78, 0.881));
 }
