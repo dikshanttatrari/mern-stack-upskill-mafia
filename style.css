@@ -89,6 +89,7 @@ li{
         bottom: 0;
         color: white;
         display: none;
+        flex-direction: column;
     }
 
     .menu-btn{
@@ -101,11 +102,15 @@ li{
 
 
     ul{
-        height: 90vh;
-        display: none;
+        display: flex;
         flex-direction: column;
-        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
         justify-content: center;
+        align-items: center;
     }
     
     .hero-section{
