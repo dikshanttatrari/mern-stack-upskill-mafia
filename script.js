@@ -1,9 +1,19 @@
-let a;
-let p = 1000;
-let r = 10;
-let n = 1;
-let t = 5;
+function calculateCompoundInterest(principal, rate, time) {
+    rate = rate / 100;
 
-a = p * (1+ (r/n)) ** n*t;
+    var amount = principal * Math.pow(1 + rate, time);
+    var compoundInterest = amount - principal;
 
-console.log('The compound interest after 5 years is ', a);
+    return compoundInterest;
+}
+
+var principal = 1000;
+var rate = 5;
+var time = 5;
+
+var compoundInterest = calculateCompoundInterest(principal, rate, time);
+
+console.log("Principal:", principal);
+console.log("Rate:", rate);
+console.log("Time (in years):", time);
+console.log("Compound interest after 5 years:", compoundInterest);
