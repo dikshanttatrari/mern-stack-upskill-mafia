@@ -43,6 +43,7 @@ function findFactors(number) {
 
 const inputNumber = 135;
 
+console.log("Number:", inputNumber),
 console.log("Sum of digits:", sumOfDigits(inputNumber));
 console.log("Is Armstrong number:", isArmstrong(inputNumber));
 console.log("Is Prime number:", isPrime(inputNumber));
